@@ -7,17 +7,17 @@
 
   "files": {
     "zlinux": {
-      "name": "zImage",
-      "sha256": "fe50f8b5a4cd263398e95f33dea08b4d568ef43f7aa22c808ddc2b86c3c2d90b"
+        "name": "zImage",
+        "sha256": "28a75e0b680517d39374260eb981b8ca9ace8810b121a30b8036fa09cfcb77fc"
     },
     "ramdisk": {
-      "name": "rd.gz",
-      "sha256": "bdde82e6b79048a860349abe566424ee00c731e00f28e0b4532b427132c14c1a"
+        "name": "rd.gz",
+        "sha256": "1b2e86fbf4006f6aa40dcd674ad449feed8b0b8317a71e2bb8bb986a74e08c57"
     },
     "vmlinux": {
-      "sha256": "65fdebe9b699f4b5482932df0ae0abb14ef38235a794ef8d651791b4fd08047e"
+        "sha256": "74ff31a80a99d42974470a83cea20961bd4e294c525eefd0770fa0575f755ada"
     }
-  },
+},
 
   "patches": {
     "_comment": ".bsp patches are applied to FILES using bspatch(1); .patch are applied to DIRECTORIES using patch(1)",
